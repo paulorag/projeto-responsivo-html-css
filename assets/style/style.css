@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+    --video-call: #FFB050;
+    --bg-endereco: #4894FF;
+    --main-color: #464646;
+    --text-color: #A3A3A3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
