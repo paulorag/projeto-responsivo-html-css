@@ -41,7 +41,7 @@
     margin-bottom: 12px;
 }
 
-.consulta__card-paciente>img {
+.consulta__card-paciente > img {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -50,7 +50,7 @@
     margin-right: 16px;
 }
 
-.consulta__card-paciente>div {
+.consulta__card-paciente > div {
     display: flex;
     flex-direction: column;
 }
@@ -63,7 +63,7 @@
 
     background: var(--cinza-secundario);
 
-    background-image: url('../../image/icons/Chat.svg');
+    background-image: url("../../image/icons/Chat.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -79,7 +79,7 @@
     align-items: center;
 }
 
-.consulta__card-paciente span>span {
+.consulta__card-paciente span > span {
     width: 16px;
     height: 16px;
     margin-right: 4px;
@@ -88,12 +88,12 @@
     background-position: center;
 }
 
-.consulta__card-paciente span>span.camera {
-    background-image: url('../../image/icons/Camera.svg');
+.consulta__card-paciente span > span.camera {
+    background-image: url("../../image/icons/Camera.svg");
 }
 
-.consulta__card-paciente span>span.mapa {
-    background-image: url('../../image/icons/Pin.svg');
+.consulta__card-paciente span > span.mapa {
+    background-image: url("../../image/icons/Pin.svg");
 }
 
 .consulta__card-conteudo {
@@ -133,4 +133,12 @@
 
 .consulta__card-acoes button:only-of-type {
     margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 700px;
+    }
 }
